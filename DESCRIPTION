@@ -1,7 +1,7 @@
 Package: ttmc
 Type: Package
 Title: Time Travel Movie Club helper package.
-Version: 0.1.0
+Version: 0.1.1
 Date: 2020-02-15
 Authors@R: c(
   person("BenJoaquin", "Gouverneur", email = "bgouverneur@plenty.ag", role = "aut"),
@@ -14,8 +14,12 @@ LazyData: true
 URL: https://www.github.com/wcmbishop/ttmc
 Imports:
   dplyr (>= 0.8.3),
+  ggplot2 (>= 3.2.1),
   glue (>= 1.3.1),
   gt (>= 0.1.0),
+  jpeg (>= 0.1.8),
   magrittr (>= 1.5),
+  patchwork (>= 1.0.0),
+  purrr (>= 0.3.3),
   tibble (>= 2.1.3)
 RoxygenNote: 7.0.2
